@@ -30,6 +30,10 @@
   transition: all linear 300ms;
 }
 
+.d_none {
+  display: none;
+}
+
 /* font-size */
 
 .vvs {
@@ -282,8 +286,7 @@
 }
 
 .button1 {
-  padding: 16px 41px 15px 40px;
-  height: 69px;
+  padding: 10px 20px;
   border-radius: 45.5px;
 }
 
@@ -341,7 +344,6 @@ a {
 }
 
 /* section1 */
-
 .minttext2 {
   text-decoration-line: line-through;
   opacity: 0.5;
@@ -690,6 +692,11 @@ footer {
 
   /* main */
   /* section1 */
+
+  .button1 {
+    padding: 16px 41px 15px 40px;
+  }
+
   .button2 {
     margin: 63px 0 52.1px 0;
   }
