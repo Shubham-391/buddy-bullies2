@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Backtotop/>
-      {/* <Preloader/> */}
+      <Preloader/>
       <Header />
       <Main />
       <Footer/>
