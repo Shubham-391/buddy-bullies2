@@ -56,7 +56,7 @@ function Footer() {
                 </a>
               </p>
             </div>
-            <div className="col-xl-1 col-md-2 col-12 mb-4 mb-md-0 text-align-center">
+            <div className="col-xl-1 col-md-2 col-12 mb-4 mb-md-0 text-align-center Community">
               <h6 className="white poppins vs f-style-normal fw-medium l-h-150 marginb-21">
                 Community
               </h6>

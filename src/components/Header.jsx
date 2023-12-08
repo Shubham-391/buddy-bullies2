@@ -1,4 +1,5 @@
 import React from "react";
+import NavClose from "../assets/images/close.webp";
 
 function Header() {
   function open() {
@@ -23,6 +24,7 @@ function Header() {
             <span></span>
           </div>
           <ul className="d-flex flex-wrap align-items-center mb-0 p-0 gap-80 small-view">
+            <img onClick={close} className="position-absolute NavClose d-lg-none" src={NavClose} alt="close icon" />
             <li className="l-h-normal s fw-medium white poppins f-style-normal position-relative line" onClick={close}>
               <a href="#mint">Minting</a>
             </li>

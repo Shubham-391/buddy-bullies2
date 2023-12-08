@@ -166,7 +166,6 @@
   position: absolute;
   top: 28px;
   right: 40px;
-  z-index: 4;
 }
 
 .icon > span {
@@ -233,6 +232,11 @@
 }
 
 /* header */
+
+.NavClose {
+  top: 20px;
+  right: 32px;
+}
 
 .line::after {
   position: absolute;
@@ -749,6 +753,10 @@ footer {
   }
 
   /* footer */
+  .Community {
+    transform: translateY(-15px);
+  }
+
   .text-align-center {
     text-align: unset;
   }
